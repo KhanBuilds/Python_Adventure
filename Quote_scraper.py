@@ -26,7 +26,7 @@ for tag in tags :
         #Parsing the response using BeautifulSoup
         soup_inspirational = BeautifulSoup(response_inspirational.text , 'html.parser')
 
-        #This looks for the clas 'text' which are stored in a span tag and then we are getting the text of the quotes
+        #This looks for the class 'text' which is stored in a span tag and then we are getting the text of the quotes
 
         quotes = soup_inspirational.find_all('span', class_='text')
 
