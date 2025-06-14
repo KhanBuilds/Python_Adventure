@@ -20,7 +20,7 @@ for tag in tags :
         user_url = url + tag['href']
 
         #Printing the inspirational URL jusr to check if we are getting the correct URL
-        print("Inspirational URL: ", user_url)
+        print("URL: ", user_url)
 
         #Now we are sending a Get request to the user URL and parsing the response using BeautifulSoup
         response_user = requests.get(user_url)
