@@ -1,3 +1,35 @@
+# Virtual environment
 venv/
+.venv/
+
+# Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Streamlit config and cache
+.streamlit/
+**/.streamlit/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Logs & caches
+*.log
+.cache/
+*.db
+*.sqlite3
+
+# Pytest & testing
+.pytest_cache/
+
+# Packaging leftovers
+*.egg-info/
+dist/
+build/
